@@ -96,8 +96,6 @@ input[type=checkbox], input[type=radio] {
 
 input[type=search] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
@@ -119,10 +117,19 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 0; }
 
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   background: #333;
-  color: black; }
+  color: black;
+  -webkit-filter: blur(0.8);
+          filter: blur(0.8); }
+
+.div {
+  box-shadow: 0 0 10px #423;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }

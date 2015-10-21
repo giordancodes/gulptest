@@ -3,4 +3,12 @@
 body{
 	background: #333;
 	color: black;
+	filter: blur(0.8)
 }
+
+.div {
+	box-shadow: 0 0 10px #423;
+	display: flex;
+	flex-wrap: wrap;
+}
+
