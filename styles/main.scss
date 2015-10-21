@@ -1,7 +1,7 @@
 @import 'setup';
 
 body{
-	background: #333;
+	background: #ccc;
 	color: black;
 	filter: blur(0.8)
 }
@@ -12,3 +12,6 @@ body{
 	flex-wrap: wrap;
 }
 
+p{
+	font-size: 33px;
+}

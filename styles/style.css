@@ -120,7 +120,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 body {
-  background: #333;
+  background: #ccc;
   color: black;
   -webkit-filter: blur(0.8);
           filter: blur(0.8); }
@@ -133,3 +133,6 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+
+p {
+  font-size: 33px; }
